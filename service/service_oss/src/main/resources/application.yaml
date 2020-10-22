@@ -1,0 +1,18 @@
+server:
+  port: 8002
+
+spring:
+  profiles:
+    active: dev
+  servlet:
+    multipart:
+      max-file-size: 100MB # 单个文件大小
+      max-request-size: 100MB # 设置总上传的数据大小
+      enabled: true
+aliyun:
+  oss:
+    file:
+      endpoint: oss-cn-beijing.aliyuncs.com
+      keyid: LTAI4G3TgapUp35aCRy6x8nN
+      keysecret: vcFvZyEo7Tdh8UH4led2iEmhXn3PnD
+      bucketname: edujs-8001

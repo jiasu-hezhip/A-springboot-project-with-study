@@ -1,0 +1,33 @@
+2020-10-21 11:17:36.844 [http-nio-8001-exec-6] ERROR com.sll.servicebase.handler.GlobaExceptionHandler - Type definition error: [simple type, class com.sll.demo.eduservice.entity.TwoSubject]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class com.sll.demo.eduservice.entity.TwoSubject and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: com.sll.commonutils.R["data"]->java.util.HashMap["list"]->java.util.ArrayList[0]->com.sll.demo.eduservice.entity.OneSubject["children"]->java.util.ArrayList[0])
+2020-10-21 15:59:52.025 [http-nio-8001-exec-6] ERROR com.sll.servicebase.handler.GlobaExceptionHandler - 
+### Error updating database.  Cause: java.sql.SQLException: Field 'subject_parent_id' doesn't have a default value
+### The error may exist in com/sll/demo/eduservice/mapper/EduCourseMapper.java (best guess)
+### The error may involve com.sll.demo.eduservice.mapper.EduCourseMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_course  ( id, teacher_id, subject_id,  title, price, lesson_num, cover,      gmt_create, gmt_modified )  VALUES  ( ?, ?, ?,  ?, ?, ?, ?,      ?, ? )
+### Cause: java.sql.SQLException: Field 'subject_parent_id' doesn't have a default value
+; Field 'subject_parent_id' doesn't have a default value; nested exception is java.sql.SQLException: Field 'subject_parent_id' doesn't have a default value
+2020-10-21 16:03:38.757 [http-nio-8001-exec-9] ERROR com.sll.servicebase.handler.GlobaExceptionHandler - 
+### Error updating database.  Cause: java.sql.SQLException: Field 'gmt_create' doesn't have a default value
+### The error may exist in com/sll/demo/eduservice/mapper/EduCourseDescriptionMapper.java (best guess)
+### The error may involve com.sll.demo.eduservice.mapper.EduCourseDescriptionMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_course_description  ( id, description )  VALUES  ( ?, ? )
+### Cause: java.sql.SQLException: Field 'gmt_create' doesn't have a default value
+; Field 'gmt_create' doesn't have a default value; nested exception is java.sql.SQLException: Field 'gmt_create' doesn't have a default value
+2020-10-21 16:04:06.004 [http-nio-8001-exec-5] ERROR com.sll.servicebase.handler.GlobaExceptionHandler - 
+### Error updating database.  Cause: java.sql.SQLException: Field 'gmt_create' doesn't have a default value
+### The error may exist in com/sll/demo/eduservice/mapper/EduCourseDescriptionMapper.java (best guess)
+### The error may involve com.sll.demo.eduservice.mapper.EduCourseDescriptionMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_course_description  ( id, description )  VALUES  ( ?, ? )
+### Cause: java.sql.SQLException: Field 'gmt_create' doesn't have a default value
+; Field 'gmt_create' doesn't have a default value; nested exception is java.sql.SQLException: Field 'gmt_create' doesn't have a default value
+2020-10-21 16:17:08.456 [http-nio-8001-exec-6] ERROR com.sll.servicebase.handler.GlobaExceptionHandler - 
+### Error updating database.  Cause: java.sql.SQLException: Field 'gmt_create' doesn't have a default value
+### The error may exist in com/sll/demo/eduservice/mapper/EduCourseDescriptionMapper.java (best guess)
+### The error may involve com.sll.demo.eduservice.mapper.EduCourseDescriptionMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_course_description  ( id, description )  VALUES  ( ?, ? )
+### Cause: java.sql.SQLException: Field 'gmt_create' doesn't have a default value
+; Field 'gmt_create' doesn't have a default value; nested exception is java.sql.SQLException: Field 'gmt_create' doesn't have a default value

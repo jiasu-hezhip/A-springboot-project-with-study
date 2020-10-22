@@ -1,0 +1,19 @@
+2020-10-14 14:27:12.464 [main] INFO  com.sll.demo.eduservice.EduApplication - Starting EduApplication on leedeMBP with PID 66079 (/Users/Apple/IdeaProjects/guli_parent/service/service_edu/target/classes started by Apple in /Users/Apple/IdeaProjects/guli_parent)
+2020-10-14 14:27:12.467 [main] INFO  com.sll.demo.eduservice.EduApplication - The following profiles are active: dev
+2020-10-14 14:27:13.386 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-14 14:27:13.388 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-14 14:27:13.416 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 Redis repository interfaces.
+2020-10-14 14:27:13.950 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-10-14 14:27:13.961 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-10-14 14:27:13.962 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-14 14:27:13.962 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-14 14:27:14.056 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-14 14:27:14.057 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1547 ms
+2020-10-14 14:27:14.839 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-14 14:27:14.936 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-14 14:27:15.415 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2020-10-14 14:27:15.448 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-10-14 14:27:15.449 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-10-14 14:27:15.464 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-10-14 14:27:15.498 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-10-14 14:27:15.688 [main] INFO  com.sll.demo.eduservice.EduApplication - Started EduApplication in 3.752 seconds (JVM running for 4.521)
